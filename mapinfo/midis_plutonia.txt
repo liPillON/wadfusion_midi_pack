@@ -1,0 +1,305 @@
+// Plutonia maps
+
+// Skies get replaced by texture substitution compatibility options
+
+defaultmap
+{
+	SuckTime = 1
+	ExitPic = "INTERPL"
+	music = "music/plutmidi/P_INTER.mid"
+}
+
+// Episode 1 Part 1
+
+adddefaultmap
+{
+	Cluster = 18
+	Sky1 = "SKY1"
+}
+
+map PL_MAP01 "$PHUSTR_1"
+{
+	Next = "PL_MAP02"
+	TitlePatch = "PWILV00", 1
+	music = "music/plutmidi/P_MAP01.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP02 "$PHUSTR_2"
+{
+	Next = "PL_MAP03"
+	TitlePatch = "PWILV01", 1
+	music = "music/plutmidi/P_MAP02.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP03 "$PHUSTR_3"
+{
+	Next = "PL_MAP04"
+	TitlePatch = "PWILV02", 1
+	music = "music/plutmidi/P_MAP03.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP04 "$PHUSTR_4"
+{
+	Next = "PL_MAP05"
+	TitlePatch = "PWILV03", 1
+	music = "music/plutmidi/P_MAP04.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP05 "$PHUSTR_5"
+{
+	Next = "PL_MAP06"
+	TitlePatch = "PWILV04", 1
+	music = "music/plutmidi/P_MAP05.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP06 "$PHUSTR_6"
+{
+	Next = "PL_MAP07"
+	TitlePatch = "PWILV05", 1
+	music = "music/plutmidi/P_MAP06.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+// Episode 1 Part 2
+
+adddefaultmap
+{
+	Cluster = 19
+}
+
+map PL_MAP07 "$PHUSTR_7"
+{
+	Next = "PL_MAP08"
+	TitlePatch = "PWILV06", 1
+	music = "music/plutmidi/P_MAP97.mid"
+	Map07Special
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP08 "$PHUSTR_8"
+{
+	Next = "PL_MAP09"
+	TitlePatch = "PWILV07", 1
+	music = "music/plutmidi/P_MAP08.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP09 "$PHUSTR_9"
+{
+	Next = "PL_MAP10"
+	TitlePatch = "PWILV08", 1
+	music = "music/plutmidi/P_MAP09.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP10 "$PHUSTR_10"
+{
+	Next = "PL_MAP11"
+	TitlePatch = "PWILV09", 1
+	music = "music/plutmidi/P_MAP10.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP11 "$PHUSTR_11"
+{
+	Next = "PL_MAP12"
+	TitlePatch = "PWILV10", 1
+	music = "music/plutmidi/P_MAP11.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+// Episode 2
+
+adddefaultmap
+{
+	Cluster = 20
+	Sky1 = "SKY2"
+}
+
+map PL_MAP12 "$PHUSTR_12"
+{
+	Next = "PL_MAP13"
+	TitlePatch = "PWILV11", 1
+	music = "music/plutmidi/P_MAP12.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP13 "$PHUSTR_13"
+{
+	Next = "PL_MAP14"
+	TitlePatch = "PWILV12", 1
+	music = "music/plutmidi/P_MAP13.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP14 "$PHUSTR_14"
+{
+	Next = "PL_MAP15"
+	TitlePatch = "PWILV13", 1
+	music = "music/plutmidi/P_MAP14.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP15 "$PHUSTR_15"
+{
+	Next = "PL_MAP16"
+	SecretNext = "PL_MAP31"
+	TitlePatch = "PWILV14", 1
+	music = "music/plutmidi/P_MAP15.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP16 "$PHUSTR_16"
+{
+	Next = "PL_MAP17"
+	TitlePatch = "PWILV15", 1
+	music = "music/plutmidi/P_MAP16.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP17 "$PHUSTR_17"
+{
+	Next = "PL_MAP18"
+	TitlePatch = "PWILV16", 1
+	music = "music/plutmidi/P_MAP17.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP18 "$PHUSTR_18"
+{
+	Next = "PL_MAP19"
+	TitlePatch = "PWILV17", 1
+	music = "music/plutmidi/P_MAP18.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP19 "$PHUSTR_19"
+{
+	Next = "PL_MAP20"
+	TitlePatch = "PWILV18", 1
+	music = "music/plutmidi/P_MAP19.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP20 "$PHUSTR_20"
+{
+	Next = "PL_MAP21"
+	TitlePatch = "PWILV19", 1
+	music = "music/plutmidi/P_MAP20.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+// Episode 3
+
+adddefaultmap
+{
+	Cluster = 21
+	Sky1 = "SKY3"
+}
+
+map PL_MAP21 "$PHUSTR_21"
+{
+	Next = "PL_MAP22"
+	TitlePatch = "PWILV20", 1
+	music = "music/plutmidi/P_MAP21.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP22 "$PHUSTR_22"
+{
+	Next = "PL_MAP23"
+	TitlePatch = "PWILV21", 1
+	music = "music/plutmidi/P_MAP22.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP23 "$PHUSTR_23"
+{
+	Next = "PL_MAP24"
+	TitlePatch = "PWILV22", 1
+	music = "music/plutmidi/P_MAP23.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP24 "$PHUSTR_24"
+{
+	Next = "PL_MAP25"
+	TitlePatch = "PWILV23", 1
+	music = "music/plutmidi/P_MAP24.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP25 "$PHUSTR_25"
+{
+	Next = "PL_MAP26"
+	TitlePatch = "PWILV24", 1
+	music = "music/plutmidi/P_MAP25.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP26 "$PHUSTR_26"
+{
+	Next = "PL_MAP27"
+	TitlePatch = "PWILV25", 1
+	music = "music/plutmidi/P_MAP26.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP27 "$PHUSTR_27"
+{
+	Next = "PL_MAP28"
+	TitlePatch = "PWILV26", 1
+	music = "music/plutmidi/P_MAP27.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP28 "$PHUSTR_28"
+{
+	Next = "PL_MAP29"
+	TitlePatch = "PWILV27", 1
+	music = "music/plutmidi/P_MAP28.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP29 "$PHUSTR_29"
+{
+	Next = "PL_MAP30"
+	TitlePatch = "PWILV28", 1
+	music = "music/plutmidi/P_MAP29.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+map PL_MAP30 "$PHUSTR_30"
+{
+	Next = EndSequence, "Inter_Cast_Plutonia"
+	TitlePatch = "PWILV29", 1
+	music = "music/plutmidi/P_MAP30.mid"
+	AllowMonsterTelefrags
+	Author = "$WF_AU_MILO_CASALI"
+}
+
+// Secret maps
+
+map PL_MAP31 "$PHUSTR_31"
+{
+	Next = "PL_MAP16"
+	SecretNext = "PL_MAP32"
+	Cluster = 22
+	TitlePatch = "PWILV30", 1
+	music = "music/plutmidi/P_MAP31.mid"
+	Author = "$WF_AU_DARIO_CASALI"
+}
+
+map PL_MAP32 "$PHUSTR_32"
+{
+	Next = "PL_MAP16"
+	Cluster = 23
+	TitlePatch = "PWILV31", 1
+	music = "music/plutmidi/P_MAP32.mid"
+	Author = "$WF_AU_MILO_CASALI"
+}

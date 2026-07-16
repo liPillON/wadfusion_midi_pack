@@ -1,0 +1,117 @@
+// The Ultimate Doom maps
+
+defaultmap
+{
+	SuckTime = 1
+	InterMusic = "$MUSIC_INTER"
+	BorderTexture = "FLOOR7_2"
+}
+
+// Retail Episode 4
+
+adddefaultmap
+{
+	Sky1 = "SKY4"
+	Cluster = 4
+	ExitPic = "INTERE4"
+}
+
+map E4M1 "$HUSTR_E4M1"
+{
+	LevelNum = 31
+	Next = "E4M2"
+	TitlePatch = "WILV30", 1
+	Par = 165
+	music = "music/uldupmid/D_E4M1.mid"
+	Author = "$WF_AU_MCGEE"
+}
+
+map E4M2 "$HUSTR_E4M2"
+{
+	LevelNum = 32
+	Next = "E4M3"
+	SecretNext = "E4M9"
+	TitlePatch = "WILV31", 1
+	Par = 255
+	music = "music/uldupmid/D_E4M2.mid"
+	Author = "$WF_AU_ROMERO"
+}
+
+map E4M3 "$HUSTR_E4M3"
+{
+	LevelNum = 33
+	Next = "E4M4"
+	TitlePatch = "WILV32", 1
+	Par = 135
+	music = "music/uldupmid/D_E4M3.mid"
+	Author = "$WF_AU_GREEN"
+}
+
+map E4M4 "$HUSTR_E4M4"
+{
+	LevelNum = 34
+	Next = "E4M5"
+	TitlePatch = "WILV33", 1
+	Par = 150
+	music = "music/uldupmid/D_E4M4.mid"
+	Author = "$WF_AU_MCGEE"
+}
+
+map E4M5 "$HUSTR_E4M5"
+{
+	LevelNum = 35
+	Next = "E4M6"
+	TitlePatch = "WILV34", 1
+	Par = 180
+	music = "music/uldupmid/D_E4M5.mid"
+	Author = "$WF_AU_WILLITS_CHASAR"
+}
+
+map E4M6 "$HUSTR_E4M6"
+{
+	LevelNum = 36
+	Next = "E4M7"
+	TitlePatch = "WILV35", 1
+	Par = 390
+	music = "music/uldupmid/D_E4M6.mid"
+	E4M6Special
+	CyberdemonSpecial
+	SpecialAction_OpenDoor
+	Author = "$WF_AU_ROMERO"
+}
+
+map E4M7 "$HUSTR_E4M7"
+{
+	LevelNum = 37
+	Next = "E4M8"
+	TitlePatch = "WILV36", 1
+	Par = 135
+	music = "music/uldupmid/D_E4M7.mid"
+	Author = "$WF_AU_ANDERSON"
+}
+
+map E4M8 "$HUSTR_E4M8"
+{
+	LevelNum = 38
+	// Next = "EndGame4"
+	Next = EndSequence, "Doom1_Ep4_Fusion"
+	TitlePatch = "WILV37", 1
+	Par = 360
+	music = "music/uldupmid/D_E4M8.mid"
+	NoIntermission
+	E4M8Special
+	SpiderMastermindSpecial
+	SpecialAction_LowerFloor
+	NoSoundClipping
+	Author = "$WF_AU_GREEN"
+}
+
+map E4M9 "$HUSTR_E4M9"
+{
+	LevelNum = 39
+	Next = "E4M3"
+	TitlePatch = "WILV38", 1
+	Par = 180
+	music = "music/uldupmid/D_E4M9.mid"
+	Author = "$WF_AU_WILLITS"
+}
