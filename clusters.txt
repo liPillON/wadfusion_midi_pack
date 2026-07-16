@@ -1,0 +1,284 @@
+// Clusters
+
+
+// some cluster definitions were deprecated by zscript initialised intermissions
+// they still get defined here with commented out properties
+// this is needed for the sake of compatibility with mods that may rely on them
+
+// Doom 1 Clusters (correspond with same-numbered episode)
+
+// deprecated
+cluster 1
+{
+	// ExitText = "$E1TEXT"
+	// Music = "$MUSIC_VICTOR"
+	// Flat = "$bgflatE1"
+}
+
+// deprecated
+cluster 2
+{
+	// ExitText = "$E2TEXT"
+	// Music = "$MUSIC_VICTOR"
+	// Flat = "$bgflatE2"
+}
+
+cluster 3
+{
+	ExitText = "$E3TEXT"
+	Music = "$MUSIC_VICTOR"
+	Flat = "$bgflatE3"
+}
+
+// deprecated
+cluster 4
+{
+	// ExitText = "$E4TEXT"
+	// Music = "$MUSIC_VICTOR"
+	// Flat = "$bgflatE4"
+}
+
+// DOOM II first cluster (up thru level 6)
+
+cluster 5
+{
+	ExitText = "$C1TEXT"
+	Music = "$MUSIC_READ_M"
+	Flat = "$BGFLAT06"
+}
+
+// DOOM II second cluster (up thru level 11)
+
+cluster 6
+{
+	ExitText = "$C2TEXT"
+	Music = "$MUSIC_READ_M"
+	Flat = "$BGFLAT11"
+}
+
+// DOOM II third cluster (up thru level 20)
+
+cluster 7
+{
+	ExitText = "$C3TEXT"
+	Music = "$MUSIC_READ_M"
+	Flat = "$BGFLAT20"
+}
+
+// DOOM II fourth cluster (up thru level 30)
+
+cluster 8
+{
+	ExitText = "$C4TEXT"
+	Music = "$MUSIC_READ_M"
+	Flat = "$BGFLAT30"
+}
+
+// DOOM II fifth cluster (level 31)
+
+cluster 9
+{
+	EnterText = "$C5TEXT"
+	Music = "$MUSIC_READ_M"
+	Flat = "$BGFLAT15"
+}
+
+// DOOM II sixth cluster (level 32)
+
+cluster 10
+{
+	EnterText = "$C6TEXT"
+	Music = "$MUSIC_READ_M"
+	Flat = "$BGFLAT31"
+}
+
+// No Rest for the Living cluster
+
+cluster 11
+{
+	ExitText = "$NERVETEXT"
+	Music = "music/NRFTL/N_TEXT.mid"
+	Flat = "$BGFLAT06"
+}
+
+// TNT first cluster (up thru level 6)
+
+cluster 12
+{
+	ExitText = "$T1TEXT"
+	Music = "music/tntmidi/T_TEXT.mid"
+	Flat = "$BGFLAT06"
+}
+
+// TNT second cluster (up thru level 11)
+
+cluster 13
+{
+	ExitText = "$T2TEXT"
+	Music = "music/tntmidi/T_TEXT.mid"
+	Flat = "$BGFLAT11"
+}
+
+// TNT third cluster (up thru level 20)
+
+cluster 14
+{
+	ExitText = "$T3TEXT"
+	Music = "music/tntmidi/T_TEXT.mid"
+	Flat = "$BGFLAT20"
+}
+
+// TNT fourth cluster (up thru level 30)
+
+cluster 15
+{
+	ExitText = "$T4TEXT"
+	Music = "music/tntmidi/T_TEXT.mid"
+	Flat = "$BGFLAT30"
+}
+
+// TNT fifth cluster (level 31)
+
+cluster 16
+{
+	EnterText = "$T5TEXT"
+	Music = "music/tntmidi/T_TEXT.mid"
+	Flat = "$BGFLAT15"
+}
+
+// TNT sixth cluster (level 32)
+
+cluster 17
+{
+	EnterText = "$T6TEXT"
+	Music = "music/tntmidi/T_TEXT.mid"
+	Flat = "$BGFLAT31"
+}
+
+// Plutonia first cluster (up thru level 6)
+
+cluster 18
+{
+	ExitText = "$P1TEXT"
+	Music = "music/plutmidi/P_TEXT.mid"
+	Flat = "$BGFLAT06"
+}
+
+// Plutonia second cluster (up thru level 11)
+
+cluster 19
+{
+	ExitText = "$P2TEXT"
+	Music = "music/plutmidi/P_TEXT.mid"
+	Flat = "$BGFLAT11"
+}
+
+// Plutonia third cluster (up thru level 20)
+
+cluster 20
+{
+	ExitText = "$P3TEXT"
+	Music = "music/plutmidi/P_TEXT.mid"
+	Flat = "$BGFLAT20"
+}
+
+// Plutonia fourth cluster (up thru level 30)
+
+cluster 21
+{
+	ExitText = "$P4TEXT"
+	Music = "music/plutmidi/P_TEXT.mid"
+	Flat = "$BGFLAT30"
+}
+
+// Plutonia fifth cluster (level 31)
+
+cluster 22
+{
+	EnterText = "$P5TEXT"
+	Music = "music/plutmidi/P_TEXT.mid"
+	Flat = "$BGFLAT15"
+}
+
+// Plutonia sixth cluster (level 32)
+
+cluster 23
+{
+	EnterText = "$P6TEXT"
+	Music = "music/plutmidi/P_TEXT.mid"
+	Flat = "$BGFLAT31"
+}
+
+// Master Levels clusters
+
+// deprecated
+cluster 24
+{
+	// ExitText = "$MLEND"
+	// Music = "$MUSIC_READ_M"
+	// Flat = "$BGFLAT06"
+}
+
+cluster 25
+{
+	EnterText = "$MLSECRET"
+	Music = "music/ML/M_TEXT.mid"
+	Flat = "$BGFLAT31"
+}
+
+// Sigil 1 cluster
+
+// deprecated
+cluster 26
+{
+	// Flat = "FLOOR7_2"
+	// Music = "$MUSIC_VICTOR"
+	// ExitText = "$E5TEXT"
+}
+
+// Sigil 2 cluster
+
+// deprecated
+cluster 27
+{
+	// Flat = "FLOOR7_2"
+	// Music = "$MUSIC_VICTOR"
+	// ExitText = "$E6TEXT"
+}
+
+// Legacy of Rust Episode 1 cluster
+
+// deprecated
+cluster 28
+{
+	// ExitText = "$INTERTEXT_ID1_E1"
+	// Music = "D_SHORES"
+	// Flat = "SLIME20"
+}
+
+// Legacy of Rust Episode 2 cluster
+
+cluster 29
+{
+	ExitText = "$INTERTEXT_ID1_E2"
+	Music = "D_SHORES"
+	Flat = "FLOOR9_2"
+}
+
+// Blackroom clusters
+
+cluster 30
+{
+	EnterText = "$E1M4BTEXT"
+	Music = "$MUSIC_VICTOR"
+	Flat = "$FLOOR5_2"
+}
+
+cluster 31
+{
+	EnterText = "$E1M8BTEXT"
+	// deprecated by full run mode, the exit flat should be different from the enter flat anyway
+	// ExitText = "$E1TEXT"
+	Music = "$MUSIC_VICTOR"
+	Flat = "$FLOOR5_1"
+}

@@ -1,0 +1,10 @@
+include mapinfo/midis_doom1.txt
+include mapinfo/midis_doom2.txt
+include mapinfo/midis_doomu.txt
+include mapinfo/midis_masterlevels.txt
+include mapinfo/midis_masterlevels_anderson.txt
+include mapinfo/midis_masterlevels_flynn.txt
+include mapinfo/midis_masterlevels_kvernmo.txt
+include mapinfo/midis_nerve.txt
+include mapinfo/midis_plutonia.txt
+include mapinfo/midis_tnt.txt
