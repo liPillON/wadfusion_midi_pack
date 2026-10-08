@@ -13,7 +13,7 @@ map NV_MAP01 "$NHUSTR_1"
 	Sky1 = "SKY1"
 	TitlePatch = "NWILV00", 1
 	Par = 75
-	Music = "$MUSIC_MESSAG"
+	Music = "music/nrftl/N_NRFTL1.mid"
 	Author = "$WF_AU_MEAKIM"
 }
 
@@ -23,7 +23,7 @@ map NV_MAP02 "$NHUSTR_2"
 	Sky1 = "SKY1"
 	TitlePatch = "NWILV01", 1
 	Par = 105
-	Music = "$MUSIC_DDTBLU"
+	Music = "music/nrftl/N_NRFTL2.mid"
 	Author = "$WF_AU_IWAKURA"
 }
 
@@ -33,7 +33,7 @@ map NV_MAP03 "$NHUSTR_3"
 	Sky1 = "SKY1"
 	TitlePatch = "NWILV02", 1
 	Par = 120
-	Music = "$MUSIC_DOOM"
+	Music = "music/nrftl/N_NRFTL3.mid"
 	Author = "$WF_AU_MEAKIM"
 }
 
@@ -44,7 +44,7 @@ map NV_MAP04 "$NHUSTR_4"
 	Sky1 = "SKY1"
 	TitlePatch = "NWILV03", 1
 	Par = 105
-	Music = "$MUSIC_SHAWN"
+	Music = "music/nrftl/N_NRFTL4.mid"
 	Author = "$WF_AU_MEAKIM"
 }
 
@@ -54,7 +54,7 @@ map NV_MAP05 "$NHUSTR_5"
 	Sky1 = "SKY3"
 	TitlePatch = "NWILV04", 1
 	Par = 210
-	Music = "$MUSIC_IN_CIT"
+	Music = "music/nrftl/N_NRFTL5.mid"
 	Author = "$WF_AU_IWAKURA"
 }
 
@@ -64,7 +64,7 @@ map NV_MAP06 "$NHUSTR_6"
 	Sky1 = "SKY3"
 	TitlePatch = "NWILV05", 1
 	Par = 105
-	Music = "$MUSIC_THE_DA"
+	Music = "music/nrftl/N_NRFTL6.mid"
 	Author = "$WF_AU_IWAKURA"
 }
 
@@ -74,7 +74,7 @@ map NV_MAP07 "$NHUSTR_7"
 	Sky1 = "SKY3"
 	TitlePatch = "NWILV06", 1
 	Par = 165
-	Music = "$MUSIC_IN_CIT"
+	Music = "music/nrftl/N_NRFTL7.mid"
 	Map07Special
 	Author = "$WF_AU_IWAKURA"
 }
@@ -85,7 +85,7 @@ map NV_MAP08 "$NHUSTR_8"
 	Sky1 = "SKY3"
 	TitlePatch = "NWILV07", 1
 	Par = 105
-	Music = "$MUSIC_SHAWN"
+	Music = "music/nrftl/N_NRFTL8.mid"
 	Author = "$WF_AU_IWAKURA"
 }
 
@@ -95,6 +95,6 @@ map NV_MAP09 "$NHUSTR_9"
 	Sky1 = "SKY1"
 	TitlePatch = "NWILV08", 1
 	Par = 135
-	Music = "$MUSIC_DDTBLU"
+	Music = "music/nrftl/N_NRFTL9.mid"
 	Author = "$WF_AU_MEAKIM"
 }
