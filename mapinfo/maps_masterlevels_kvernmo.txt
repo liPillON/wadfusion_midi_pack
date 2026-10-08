@@ -12,7 +12,7 @@ map ML_MAP10 "$ML_BLACKTWR"
 {
 	Next = "ML_MAP11"
 	TitlePatch = "MWILV09", 1
-	Music = "$MUSIC_ADRIAN"
+	Music = "music/ml/BLACKTWR.mid"
 }
 
 map ML_MAP18 "$ML_TEETH"
@@ -20,14 +20,14 @@ map ML_MAP18 "$ML_TEETH"
 	Next = "ML_MAP19"
 	SecretNext = "ML_MAP21"
 	TitlePatch = "MWILV17", 1
-	Music = "$MUSIC_EVIL"
+	Music = "music/ml/TEETH_MAP31.mid"
 }
 
 map ML_MAP19 "$ML_BLOODSEA"
 {
 	Next = "ML_MAP20"
 	TitlePatch = "MWILV18", 1
-	Music = "$MUSIC_SHAWN"
+	Music = "music/ml/BLOODSEA.mid"
 	Map07Special
 	ResetHealth
 	ResetInventory
@@ -38,7 +38,7 @@ map ML_MAP20 "$ML_MEPHISTO"
 {
 	Next = EndSequence, "MasterLevels_End"
 	TitlePatch = "MWILV19", 1
-	Music = "$MUSIC_SHAWN"
+	Music = "music/ml/MEPHISTO.mid"
 	AllowMonsterTelefrags
 	Map07Special
 }
@@ -48,7 +48,7 @@ map ML_MAP21 "$ML_TEETH_SECRET"
 	Next = "ML_MAP19"
 	Cluster = 25
 	TitlePatch = "MWILV20", 1
-	Music = "$MUSIC_ULTIMA"
+	Music = "music/ml/TEETH_MAP32.mid"
 }
 
 // reject levels

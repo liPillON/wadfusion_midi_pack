@@ -21,14 +21,14 @@ map ML_MAP01 "$ML_ATTACK"
 {
 	Next = "ML_MAP02"
 	TitlePatch = "MWILV00", 1
-	Music = "$MUSIC_RUNNIN"
+	Music = "music/ml/ATTACK.mid"
 }
 
 map ML_MAP02 "$ML_CANYON"
 {
 	Next = "ML_MAP03"
 	TitlePatch = "MWILV01", 1
-	Music = "$MUSIC_E2M2"
+	Music = "music/ml/CANYON.mid"
 }
 
 // Christen Klie's Master Levels
@@ -42,14 +42,14 @@ map ML_MAP03 "$ML_CATWALK"
 {
 	Next = "ML_MAP04"
 	TitlePatch = "MWILV02", 1
-	Music = "$MUSIC_THE_DA"
+	Music = "music/ml/CATWALK.mid"
 }
 
 map ML_MAP04 "$ML_FISTULA"
 {
 	Next = "ML_MAP05"
 	TitlePatch = "MWILV03", 1
-	Music = "$MUSIC_E1M6"
+	Music = "music/ml/FISTULA.mid"
 }
 
 map ML_MAP05 "$ML_COMBINE"
@@ -57,28 +57,28 @@ map ML_MAP05 "$ML_COMBINE"
 	// The sky gets replaced by texture substitution compatibility options
 	Next = "ML_MAP06"
 	TitlePatch = "MWILV04", 1
-	Music = "$MUSIC_DEAD"
+	Music = "music/ml/COMBINE.mid"
 }
 
 map ML_MAP06 "$ML_SUBSPACE"
 {
 	Next = "ML_MAP07"
 	TitlePatch = "MWILV05", 1
-	Music = "$MUSIC_STALKS"
+	Music = "music/ml/SUBSPACE.mid"
 }
 
 map ML_MAP08 "$ML_SUBTERRA"
 {
 	Next = "ML_MAP09"
 	TitlePatch = "MWILV07", 1
-	Music = "$MUSIC_DDTBLU"
+	Music = "music/ml/SUBTERRA.mid"
 }
 
 map ML_MAP09 "$ML_GARRISON"
 {
 	Next = "ML_MAP10"
 	TitlePatch = "MWILV08", 1
-	Music = "$MUSIC_E3M3"
+	Music = "music/ml/GARRISON.mid"
 }
 
 // Tom Mustaines's Master Level
@@ -87,6 +87,6 @@ map ML_MAP07 "$ML_PARADOX"
 {
 	Next = "ML_MAP08"
 	TitlePatch = "MWILV06", 1
-	Music = "$MUSIC_IN_CIT"
+	Music = "music/ml/PARADOX.mid"
 	Author = "$WF_AU_MUSTAINES"
 }
