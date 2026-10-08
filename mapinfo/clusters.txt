@@ -97,7 +97,7 @@ cluster 10
 cluster 11
 {
 	ExitText = "$NERVETEXT"
-	Music = "$MUSIC_READ_M"
+	Music = "music/nrftl/N_READ_M.mid"
 	Flat = "$BGFLAT06"
 }
 
@@ -160,7 +160,7 @@ cluster 17
 cluster 18
 {
 	ExitText = "$P1TEXT"
-	Music = "P_READ_M"
+	Music = "music/plutmidi/P_READ_M.mid"
 	Flat = "$BGFLAT06"
 }
 
@@ -169,7 +169,7 @@ cluster 18
 cluster 19
 {
 	ExitText = "$P2TEXT"
-	Music = "P_READ_M"
+	Music = "music/plutmidi/P_READ_M.mid"
 	Flat = "$BGFLAT11"
 }
 
@@ -178,7 +178,7 @@ cluster 19
 cluster 20
 {
 	ExitText = "$P3TEXT"
-	Music = "P_READ_M"
+	Music = "music/plutmidi/P_READ_M.mid"
 	Flat = "$BGFLAT20"
 }
 
@@ -187,7 +187,7 @@ cluster 20
 cluster 21
 {
 	ExitText = "$P4TEXT"
-	Music = "P_READ_M"
+	Music = "music/plutmidi/P_READ_M.mid"
 	Flat = "$BGFLAT30"
 }
 
@@ -196,7 +196,7 @@ cluster 21
 cluster 22
 {
 	EnterText = "$P5TEXT"
-	Music = "P_READ_M"
+	Music = "music/plutmidi/P_READ_M.mid"
 	Flat = "$BGFLAT15"
 }
 
@@ -205,7 +205,7 @@ cluster 22
 cluster 23
 {
 	EnterText = "$P6TEXT"
-	Music = "P_READ_M"
+	Music = "music/plutmidi/P_READ_M.mid"
 	Flat = "$BGFLAT31"
 }
 
@@ -215,14 +215,14 @@ cluster 23
 cluster 24
 {
 	// ExitText = "$MLEND"
-	// Music = "$MUSIC_READ_M"
+	Music = "music/ml/M_READ_M.mid"
 	// Flat = "$BGFLAT06"
 }
 
 cluster 25
 {
 	EnterText = "$MLSECRET"
-	Music = "$MUSIC_READ_M"
+	Music = "music/ml/M_READ_M.mid"
 	Flat = "$BGFLAT31"
 }
 
