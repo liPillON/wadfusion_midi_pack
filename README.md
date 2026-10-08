@@ -1,21 +1,36 @@
 # wadfusion\_midi\_pack
 
-
 A pwad for Owlet7's WadFusion, adding the various community's MIDI Packs music tracks.
 
 Load it after the `doom_fusion.ipk3` iwad, wich is assumed to have been generated:
 
-* using all official 4 iwads
-* adding SIGIL, NERVE.WAD, ID1.WAD and SIGIL2.WAD
-* the original 20 Master Levels WADs
+* using all original 4 dos iwads
+* adding SIGIL, SIGIL2, NERVE, ID1, MasterLevels kex pwads
+* adding the 15 pwads identified by WadFusion as the "Master Levels Rejects" 
+* the 2 xbox bonus levels: SEWERS and BETRAY
+* the remakes of E1M4 and E1M8 released by John Romero
 
 
 
 ## Level Progression
+
 WadFusion offers only the level progression adopted by the latest official, kex-based source port released by ID/NightDive in 2024.
 
 For more information about the different level progressions, see [here](https://doomwiki.org/wiki/Master_Levels_for_Doom_II#Level_progression)
 
+
+
+## Implementatio Details
+
+With the exception of SIGIL and SIGIL (wich already come with their own midis) and the ML Rejects (which do not have a community midi pack available) all other mapsets have had their soundtracks tweaked by using the following criteria:
+
+* DOOM, DOOM2, TNT: music has been replaced only for maps that reused tracks from earlier maps/episodes/games
+* NERVE, PLUTONIA, MasterLevels: the whole soundtrack has been replaced using the full release of each midi pack
+
+Where possible (WadFusion episode/clusters definition is much more sofisticated) some enhancement have been made to the mapinfo definitions:
+
+* game/episode-specific intermission screen music (D_INTER/D_DM2INT) by editing the intermission definitions
+* cluster-specific text screen music (D_VICTOR/D_READ_M) setting the cluster definitions
 
 
 ## Credits
@@ -31,9 +46,3 @@ More information about each MIDI Pack:
 * [https://doomwiki.org/wiki/Plutonia\_MIDI\_Pack](https://doomwiki.org/wiki/Plutonia_MIDI_Pack)
 * [https://doomwiki.org/wiki/TNT:\_Evilution\_MIDI\_Pack](https://doomwiki.org/wiki/TNT:_Evilution_MIDI_Pack)
 
-
-
-With the exception of SIGIL (wich already comes with its own midis) all other mapsets have had their soundtracks tweaked by using the following criteria:
-
-* DOOM, DOOM2: only the duplicated tracks have been replaced with midis specific to the map slots which required replacements
-* NERVE, PLUTONIA, TNT, MasterLevels: full soundtrack replacement using their respective full midi packs
