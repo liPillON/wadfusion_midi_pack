@@ -1,0 +1,88 @@
+// Master Levels for Doom 2 maps - John Anderson's INFERNO
+
+// The skies get replaced by texture substitution compatibility options (except DANTES and CHIRON)
+
+defaultmap
+{
+	Cluster = 24
+	Sky1 = "SKY1"
+	SuckTime = 1
+	Author = "$WF_AU_ANDERSON"
+}
+
+map ML_MAP11 "$ML_VIRGIL"
+{
+	Next = "ML_MAP12"
+	TitlePatch = "MWILV10", 1
+	Music = "$MUSIC_COUNTD"
+}
+
+map ML_MAP12 "$ML_MINOS"
+{
+	Next = "ML_MAP13"
+	TitlePatch = "MWILV11", 1
+	Music = "$MUSIC_DOOM"
+}
+
+map ML_MAP13 "$ML_NESSUS"
+{
+	Next = "ML_MAP14"
+	TitlePatch = "MWILV12", 1
+	Music = "$MUSIC_SHAWN"
+	Map07Special
+}
+
+map ML_MAP14 "$ML_GERYON"
+{
+	Next = "ML_MAP15"
+	TitlePatch = "MWILV13", 1
+	Music = "$MUSIC_DDTBLU"
+}
+
+map ML_MAP15 "$ML_VESPERAS"
+{
+	Next = "ML_MAP16"
+	TitlePatch = "MWILV14", 1
+	Music = "$MUSIC_IN_CIT"
+}
+
+// bonus levels
+
+map ML_MAP33 "$ML_DANTES"
+{
+	Next = "ML_MAP34"
+	TitlePatch = "MWILV32", 1
+	Music = "$MUSIC_STALKS"
+	ResetHealth
+	ResetInventory
+	ResetItems
+}
+
+map ML_MAP34 "$ML_ACHERON"
+{
+	Next = "ML_MAP11"
+	TitlePatch = "MWILV33", 1
+	Music = "$MUSIC_COUNTD"
+}
+
+map ML_MAP35 "$ML_CHIRON" // duplicate of E4M7
+{
+	Next = "ML_MAP36"
+	Sky1 = "SKY4"
+	TitlePatch = "MWILV34", 1
+	Par = 135
+	Music = "$MUSIC_E2M6"
+}
+
+map ML_MAP36 "$ML_LETHE" // UDTWiD's E4M8 - An End to Darkness
+{
+	Next = "ML_MAP19"
+	Sky1 = "SKY4"
+	TitlePatch = "MWILV35", 1
+	Par = 105
+	Music = "$MUSIC_E2M5"
+	SpiderMastermindSpecial
+	SpecialAction_LowerFloor
+	NoSoundClipping
+	Author = "$WF_AU_XASER"
+}

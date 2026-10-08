@@ -1,0 +1,34 @@
+include mapinfo/doomednums.txt
+include mapinfo/episodes.txt
+include mapinfo/clusters.txt
+include mapinfo/intermissions.txt
+include mapinfo/intermissions_intros.txt
+include mapinfo/intermissions_masterlevels.txt
+include mapinfo/intermissions_fullrun.txt
+include mapinfo/maps_doom1.txt
+include mapinfo/maps_doomu.txt
+include mapinfo/maps_doom2.txt
+include mapinfo/maps_masterlevels.txt
+include mapinfo/maps_masterlevels_rejects.txt
+include mapinfo/maps_masterlevels_flynn.txt
+include mapinfo/maps_masterlevels_anderson.txt
+include mapinfo/maps_masterlevels_kvernmo.txt
+include mapinfo/maps_masterlevels_story.txt
+include mapinfo/maps_nerve.txt
+include mapinfo/maps_tnt.txt
+include mapinfo/maps_plutonia.txt
+include mapinfo/maps_xbox.txt
+include mapinfo/maps_blackroom.txt
+include mapinfo/maps_sigil.txt
+include mapinfo/maps_sigil2.txt
+include mapinfo/maps_id1.txt
+include mapinfo/maps_iddm1.txt
+
+GameInfo
+{
+	FinalePage = "CREDIT", "VICTORY2", "ENDPIC"
+	QuitSound = "menu/quitfusion"
+	DefaultEndSequence = "Fusion_GotoTitle"
+	AddEventHandlers = "WadFusionHandler", "WadFusionStaticHandler"
+	StatusBarClass = "WadFusionStatusBar"
+}

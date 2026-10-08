@@ -1,0 +1,35 @@
+// Blackroom warm-up maps
+
+// Skies get replaced by texture substitution compatibility options
+
+defaultmap
+{
+	Sky1 = "SKY1"
+	SuckTime = 1
+	ExitPic = "$IN_EPI1"
+	InterMusic = "$MUSIC_INTER"
+	BorderTexture = "FLOOR7_2"
+	Author = "$WF_AU_ROMERO"
+}
+
+map E1M4B "$HUSTR_E1M4B"
+{
+	Next = "E1M5"
+	Cluster = 30
+	TitlePatch = "WILV03B", 1
+	Music = "$MUSIC_E1M4"
+}
+
+map E1M8B "$HUSTR_E1M8B"
+{
+	// Next = "EndGame1"
+	Next = EndSequence, "Doom1_Ep1_Fusion"
+	Cluster = 31
+	TitlePatch = "WILV07B", 1
+	Music = "$MUSIC_E1M8"
+	NoIntermission
+	E1M8Special
+	BaronSpecial
+	SpecialAction_LowerFloor
+	NoSoundClipping
+}

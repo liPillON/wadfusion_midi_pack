@@ -1,0 +1,33 @@
+// Secret Xbox maps
+
+defaultmap
+{
+	SuckTime = 1
+}
+
+map E1M10 "$HUSTR_E1M10"
+{
+	LevelNum = 10
+	Next = "E1M2"
+	Cluster = 1
+	// The sky gets replaced by texture substitution compatibility options
+	Sky1 = "SKY3"
+	TitlePatch = "WILV39", 1
+	Par = 150
+	Music = "$MUSIC_E2M1"
+	ExitPic = "$IN_EPI1"
+	InterMusic = "$MUSIC_INTER"
+	BorderTexture = "FLOOR7_2"
+	Author = "$WF_AU_CALVIN_BLANSHINE"
+}
+
+map MAP33 "$HUSTR_33"
+{
+	Next = "MAP03"
+	Cluster = 5
+	Sky1 = "SKY1"
+	TitlePatch = "CWILV32", 1
+	Par = 120
+	Music = "D_READ_M"
+	Author = "$WF_AU_BUKOWSKI"
+}
