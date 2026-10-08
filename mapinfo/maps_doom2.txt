@@ -117,7 +117,7 @@ map MAP11 "$HUSTR_11"
 	Next = "MAP12"
 	TitlePatch = "CWILV10", 1
 	Par = 210
-	Music = "$MUSIC_STLKS2"
+	Music = "music/midtwid2dup/D_STLKS2.mid"
 	Author = "$WF_AU_ROMERO"
 }
 
@@ -134,7 +134,7 @@ map MAP12 "$HUSTR_12"
 	Next = "MAP13"
 	TitlePatch = "CWILV11", 1
 	Par = 150
-	Music = "$MUSIC_THEDA2"
+	Music = "music/midtwid2dup/D_THEDA2.mid"
 	Author = "$WF_AU_PETERSEN"
 }
 
@@ -143,7 +143,7 @@ map MAP13 "$HUSTR_13"
 	Next = "MAP14"
 	TitlePatch = "CWILV12", 1
 	Par = 150
-	Music = "$MUSIC_DOOM2"
+	Music = "music/midtwid2dup/D_DOOM2.mid"
 	Author = "$WF_AU_PETERSEN"
 }
 
@@ -152,7 +152,7 @@ map MAP14 "$HUSTR_14"
 	Next = "MAP15"
 	TitlePatch = "CWILV13", 1
 	Par = 150
-	Music = "$MUSIC_DDTBL2"
+	Music = "music/midtwid2dup/D_DDTBL2.mid"
 	Author = "$WF_AU_MCGEE"
 }
 
@@ -162,7 +162,7 @@ map MAP15 "$HUSTR_15"
 	SecretNext = "MAP31"
 	TitlePatch = "CWILV14", 1
 	Par = 210
-	Music = "$MUSIC_RUNNI2"
+	Music = "music/midtwid2dup/D_RUNNI2.mid"
 	Author = "$WF_AU_ROMERO"
 }
 
@@ -171,7 +171,7 @@ map MAP16 "$HUSTR_16"
 	Next = "MAP17"
 	TitlePatch = "CWILV15", 1
 	Par = 150
-	Music = "$MUSIC_DEAD2"
+	Music = "music/midtwid2dup/D_DEAD2.mid"
 	Author = "$WF_AU_PETERSEN"
 }
 
@@ -180,7 +180,7 @@ map MAP17 "$HUSTR_17"
 	Next = "MAP18"
 	TitlePatch = "CWILV16", 1
 	Par = 420
-	Music = "$MUSIC_STLKS3"
+	Music = "music/midtwid2dup/D_STLKS3.mid"
 	Author = "$WF_AU_ROMERO"
 }
 
@@ -198,7 +198,7 @@ map MAP19 "$HUSTR_19"
 	Next = "MAP20"
 	TitlePatch = "CWILV18", 1
 	Par = 210
-	Music = "$MUSIC_SHAWN2"
+	Music = "music/midtwid2dup/D_SHAWN2.mid"
 	Author = "$WF_AU_PETERSEN"
 }
 
@@ -224,7 +224,7 @@ map MAP21 "$HUSTR_21"
 	Next = "MAP22"
 	TitlePatch = "CWILV20", 1
 	Par = 240
-	Music = "$MUSIC_COUNT2"
+	Music = "music/midtwid2dup/D_COUNT2.mid"
 	Author = "$WF_AU_PETERSEN"
 }
 
@@ -233,7 +233,7 @@ map MAP22 "$HUSTR_22"
 	Next = "MAP23"
 	TitlePatch = "CWILV21", 1
 	Par = 150
-	Music = "$MUSIC_DDTBL3"
+	Music = "music/midtwid2dup/D_DDTBL3.mid"
 	Author = "$WF_AU_MCGEE"
 }
 
@@ -251,7 +251,7 @@ map MAP24 "$HUSTR_24"
 	Next = "MAP25"
 	TitlePatch = "CWILV23", 1
 	Par = 150
-	Music = "$MUSIC_THEDA3"
+	Music = "music/midtwid2dup/D_THEDA3.mid"
 	Author = "$WF_AU_PETERSEN"
 }
 
@@ -269,7 +269,7 @@ map MAP26 "$HUSTR_26"
 	Next = "MAP27"
 	TitlePatch = "CWILV25", 1
 	Par = 300
-	Music = "$MUSIC_MESSG2"
+	Music = "music/midtwid2dup/D_MESSG2.mid"
 	Author = "$WF_AU_ROMERO"
 }
 
@@ -278,7 +278,7 @@ map MAP27 "$HUSTR_27"
 	Next = "MAP28"
 	TitlePatch = "CWILV26", 1
 	Par = 330
-	Music = "$MUSIC_ROMER2"
+	Music = "music/midtwid2dup/D_ROMER2.mid"
 	Author = "$WF_AU_PETERSEN"
 }
 
@@ -296,7 +296,7 @@ map MAP29 "$HUSTR_29"
 	Next = "MAP30"
 	TitlePatch = "CWILV28", 1
 	Par = 300
-	Music = "$MUSIC_SHAWN3"
+	Music = "music/midtwid2dup/D_SHAWN3.mid"
 	Author = "$WF_AU_ROMERO"
 }
 
