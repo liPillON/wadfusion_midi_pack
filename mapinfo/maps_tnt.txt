@@ -37,7 +37,7 @@ map TN_MAP03 "$THUSTR_3"
 {
 	Next = "TN_MAP04"
 	TitlePatch = "TWILV02", 1
-	Music = "T_COUNTD"
+	Music = "music/tntmidi-alt/T_COUNTD.mid"
 	Author = "$WF_AU_PATENALL_MINADEO"
 }
 
@@ -93,7 +93,7 @@ map TN_MAP09 "$THUSTR_9"
 {
 	Next = "TN_MAP10"
 	TitlePatch = "TWILV08", 1
-	Music = "T_IN_CIT"
+	Music = "music/tntmidi-alt/T_IN_CIT.mid"
 	Author = "$WF_AU_SIEBEN_HALDERMAN"
 }
 
@@ -125,7 +125,7 @@ map TN_MAP12 "$THUSTR_12"
 {
 	Next = "TN_MAP13"
 	TitlePatch = "TWILV11", 1
-	Music = "T_THEDA2"
+	Music = "music/tntmidi-alt/T_THEDA2.mid"
 	Author = "$WF_AU_LOWELL"
 }
 
@@ -133,7 +133,7 @@ map TN_MAP13 "$THUSTR_13"
 {
 	Next = "TN_MAP14"
 	TitlePatch = "TWILV12", 1
-	Music = "T_DOOM2"
+	Music = "music/tntmidi-alt/T_DOOM2.mid"
 	Author = "$WF_AU_KIDBY_HALDERMAN"
 }
 
@@ -150,7 +150,7 @@ map TN_MAP15 "$THUSTR_15"
 	Next = "TN_MAP16"
 	SecretNext = "TN_MAP31"
 	TitlePatch = "TWILV14", 1
-	Music = "T_RUNNI2"
+	Music = "music/tntmidi-alt/T_RUNNI2.mid"
 	Author = "$WF_AU_WHITAKER"
 }
 
@@ -166,7 +166,7 @@ map TN_MAP17 "$THUSTR_17"
 {
 	Next = "TN_MAP18"
 	TitlePatch = "TWILV16", 1
-	Music = "T_STLKS3"
+	Music = "music/tntmidi-alt/T_STLKS3.mid"
 	Author = "$WF_AU_MUSTAINE"
 }
 
@@ -174,7 +174,7 @@ map TN_MAP18 "$THUSTR_18"
 {
 	Next = "TN_MAP19"
 	TitlePatch = "TWILV17", 1
-	Music = "T_ROMERO"
+	Music = "music/tntmidi-alt/T_ROMERO.mid"
 	Author = "$WF_AU_CASALI_HALDERMAN"
 }
 
@@ -182,7 +182,7 @@ map TN_MAP19 "$THUSTR_19"
 {
 	Next = "TN_MAP20"
 	TitlePatch = "TWILV18", 1
-	Music = "T_SHAWN2"
+	Music = "music/tntmidi-alt/T_SHAWN2.mid"
 	Author = "$WF_AU_HALDERMAN"
 }
 
@@ -206,7 +206,7 @@ map TN_MAP21 "$THUSTR_21"
 {
 	Next = "TN_MAP22"
 	TitlePatch = "TWILV20", 1
-	Music = "T_COUNT2"
+	Music = "music/tntmidi-alt/T_COUNT2.mid"
 	Author = "$WF_AU_OBRIEN"
 }
 
@@ -222,7 +222,7 @@ map TN_MAP23 "$THUSTR_23"
 {
 	Next = "TN_MAP24"
 	TitlePatch = "TWILV22", 1
-	Music = "T_AMPIE"
+	Music = "music/tntmidi-alt/T_AMPIE.mid"
 	Author = "$WF_AU_TURNBULL"
 }
 
@@ -230,7 +230,7 @@ map TN_MAP24 "$THUSTR_24"
 {
 	Next = "TN_MAP25"
 	TitlePatch = "TWILV23", 1
-	Music = "T_THEDA3"
+	Music = "music/tntmidi-alt/T_THEDA3.mid"
 	Author = "$WF_AU_JOHNSON"
 }
 
@@ -238,7 +238,7 @@ map TN_MAP25 "$THUSTR_25"
 {
 	Next = "TN_MAP26"
 	TitlePatch = "TWILV24", 1
-	Music = "T_ADRIAN"
+	Music = "music/tntmidi-alt/T_ADRIAN.mod"
 	Author = "$WF_AU_HILL"
 }
 
@@ -246,7 +246,7 @@ map TN_MAP26 "$THUSTR_26"
 {
 	Next = "TN_MAP27"
 	TitlePatch = "TWILV25", 1
-	Music = "T_MESSG2"
+	Music = "music/tntmidi-alt/T_MESSG2.mid"
 	Author = "$WF_AU_SNELL_LOWELL"
 }
 
@@ -254,7 +254,7 @@ map TN_MAP27 "$THUSTR_27"
 {
 	Next = "TN_MAP28"
 	TitlePatch = "TWILV26", 1
-	Music = "T_ROMER2"
+	Music = "music/tntmidi-alt/T_ROMER2.mid"
 	Author = "$WF_AU_OBRIEN"
 }
 
@@ -262,7 +262,7 @@ map TN_MAP28 "$THUSTR_28"
 {
 	Next = "TN_MAP29"
 	TitlePatch = "TWILV27", 1
-	Music = "T_TENSE"
+	Music = "music/tntmidi-alt/T_TENSE.mid"
 	Author = "$WF_AU_MILO_CASALI"
 }
 
@@ -270,7 +270,7 @@ map TN_MAP29 "$THUSTR_29"
 {
 	Next = "TN_MAP30"
 	TitlePatch = "TWILV28", 1
-	Music = "T_SHAWN3"
+	Music = "music/tntmidi-alt/T_SHAWN3.mid"
 	Author = "$WF_AU_SIEBEN"
 }
 
@@ -278,7 +278,7 @@ map TN_MAP30 "$THUSTR_30"
 {
 	Next = EndSequence, "Inter_Cast_Tnt"
 	TitlePatch = "TWILV29", 1
-	Music = "T_OPENIN"
+	Music = "music/tntmidi-alt/T_OPENIN.mid"
 	AllowMonsterTelefrags
 	// depends on broken vanilla stair builder behavior, which ZDoom
 	// hardcodes for TNT.wad but must be manually specified here
@@ -303,6 +303,6 @@ map TN_MAP32 "$THUSTR_32"
 	Next = "TN_MAP16"
 	Cluster = 17
 	TitlePatch = "TWILV31", 1
-	Music = "T_ULTIMA"
+	Music = "music/tntmidi-alt/T_ULTIMA.mid"
 	Author = "$WF_AU_DARIO_CASALI"
 }
