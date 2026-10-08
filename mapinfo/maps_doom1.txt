@@ -151,7 +151,7 @@ map E2M3 "$HUSTR_E2M3"
 	Next = "E2M4"
 	TitlePatch = "WILV12", 1
 	Par = 90
-	Music = "$MUSIC_E2M3"
+	Music = "music/uldupmid/D_E2M3.mid"
 	Author = "$WF_AU_PETERSEN_HALL"
 }
 
@@ -172,7 +172,7 @@ map E2M5 "$HUSTR_E2M5"
 	SecretNext = "E2M9"
 	TitlePatch = "WILV14", 1
 	Par = 90
-	Music = "$MUSIC_E2M5"
+	Music = "music/uldupmid/D_E2M5.mid"
 	Author = "$WF_AU_PETERSEN"
 }
 
@@ -218,7 +218,7 @@ map E2M9 "$HUSTR_E2M9"
 	Next = "E2M6"
 	TitlePatch = "WILV18", 1
 	Par = 170
-	Music = "$MUSIC_E2M9"
+	Music = "music/uldupmid/D_E2M9.mid"
 	Author = "$WF_AU_PETERSEN"
 }
 
@@ -267,7 +267,7 @@ map E3M4 "$HUSTR_E3M4"
 	Next = "E3M5"
 	TitlePatch = "WILV23", 1
 	Par = 150
-	Music = "$MUSIC_E3M4"
+	Music = "music/uldupmid/D_E3M4.mid"
 	Author = "$WF_AU_PETERSEN"
 }
 
@@ -277,7 +277,7 @@ map E3M5 "$HUSTR_E3M5"
 	Next = "E3M6"
 	TitlePatch = "WILV24", 1
 	Par = 90
-	Music = "$MUSIC_E3M5"
+	Music = "music/uldupmid/D_E3M5.mid"
 	Author = "$WF_AU_PETERSEN"
 }
 
@@ -288,7 +288,7 @@ map E3M6 "$HUSTR_E3M6"
 	SecretNext = "E3M9"
 	TitlePatch = "WILV25", 1
 	Par = 90
-	Music = "$MUSIC_E3M6"
+	Music = "music/uldupmid/D_E3M6.mid"
 	Author = "$WF_AU_PETERSEN"
 }
 
@@ -298,7 +298,7 @@ map E3M7 "$HUSTR_E3M7"
 	Next = "E3M8"
 	TitlePatch = "WILV26", 1
 	Par = 165
-	Music = "$MUSIC_E3M7"
+	Music = "music/uldupmid/D_E3M7.mid"
 	Author = "$WF_AU_PETERSEN_HALL"
 }
 
@@ -323,6 +323,6 @@ map E3M9 "$HUSTR_E3M9"
 	Next = "E3M7"
 	TitlePatch = "WILV28", 1
 	Par = 135
-	Music = "$MUSIC_E3M9"
+	Music = "music/uldupmid/D_E3M9.mid"
 	Author = "$WF_AU_PETERSEN"
 }
