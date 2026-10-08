@@ -11,7 +11,7 @@ intermission MasterLevels_Map29
 	{
 		Text = "$ML4STORY1"
 		Background = "$FLAT5_7", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -21,7 +21,7 @@ intermission MasterLevels_Map30
 	{
 		Text = "$ML4STORY2_1"
 		Background = "$FLAT14", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 	
 	TextScreen
@@ -36,7 +36,7 @@ intermission MasterLevels_Map31
 	{
 		Text = "$ML4STORY3"
 		Background = "$FLOOR5_4", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -46,7 +46,7 @@ intermission MasterLevels_Map32
 	{
 		Text = "$ML4STORY4"
 		Background = "$CEIL5_2", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -56,7 +56,7 @@ intermission MasterLevels_Map16
 	{
 		Text = "$ML4STORY5"
 		Background = "$CEIL1_1", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -66,7 +66,7 @@ intermission MasterLevels_Map17
 	{
 		Text = "$ML4STORY6"
 		Background = "$CEIL4_1", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -76,7 +76,7 @@ intermission MasterLevels_Map33
 	{
 		Text = "$ML5STORY1"
 		Background = "$RROCK10", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -86,7 +86,7 @@ intermission MasterLevels_Map34
 	{
 		Text = "$ML5STORY2_1"
 		Background = "$FLAT1_1", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 	
 	TextScreen
@@ -101,7 +101,7 @@ intermission MasterLevels_Map11
 	{
 		Text = "$ML5STORY3"
 		Background = "$DEM1_5", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -111,7 +111,7 @@ intermission MasterLevels_Map12
 	{
 		Text = "$ML5STORY4"
 		Background = "$RROCK12", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -121,7 +121,7 @@ intermission MasterLevels_Map13
 	{
 		Text = "$ML5STORY5_1"
 		Background = "$RROCK11", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 	
 	TextScreen
@@ -136,7 +136,7 @@ intermission MasterLevels_Map15
 	{
 		Text = "$ML5STORY6"
 		Background = "$FLAT5_2", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -146,7 +146,7 @@ intermission MasterLevels_Map19
 	{
 		Text = "$ML6STORY1_1"
 		Background = "$BLOOD1", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 	
 	TextScreen
@@ -166,7 +166,7 @@ intermission MasterLevels_Map37
 	{
 		Text = "$ML6STORY2"
 		Background = "$FWATER1", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -176,7 +176,7 @@ intermission MasterLevels_Map38
 	{
 		Text = "$ML6STORY3"
 		Background = "$SLIME15", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -186,7 +186,7 @@ intermission MasterLevels_Map20
 	{
 		Text = "$ML6STORY4"
 		Background = "$RROCK16", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -196,7 +196,7 @@ intermission MasterLevels_Map18
 	{
 		Text = "$ML6STORY5"
 		Background = "$SLIME13", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -206,7 +206,7 @@ intermission MasterLevels_Map41
 	{
 		Text = "$ML6STORY6"
 		Background = "$FLAT5_6", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -216,7 +216,7 @@ intermission MasterLevels_Map42
 	{
 		Text = "$ML6STORY7"
 		Background = "$NUKAGE1", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -226,7 +226,7 @@ intermission MasterLevels_Map10
 	{
 		Text = "$ML6STORY8"
 		Background = "$DEM1_6", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }
 
@@ -236,6 +236,6 @@ intermission MasterLevels_Map43
 	{
 		Text = "$ML6STORY9"
 		Background = "$SLIME05", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_DM2INT.mid"
 	}
 }

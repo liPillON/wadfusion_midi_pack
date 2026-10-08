@@ -92,7 +92,7 @@ intermission MasterLevels_End
 	{
 		Text = "$MLEND"
 		Background = "$BGFLAT06", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_READ_M.mid"
 	}
 	Wiper {}
 	Link = Inter_Cast
@@ -117,7 +117,7 @@ intermission Inter_Cast_Plutonia
 	{
 		Background = "BOSSPL"
 		Time = -1
-		Music = "P_EVIL"
+		Music = "music/plutmidi/P_EVIL.mid"
 	}
 	Link = Doom2Cast
 }

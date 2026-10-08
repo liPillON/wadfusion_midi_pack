@@ -362,7 +362,7 @@ intermission MasterLevels_End_Fusion_FullRun
 	{
 		Text = "$MLEND"
 		Background = "$BGFLAT06", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_READ_M.mid"
 	}
 	Wiper {}
 	Link = Inter_Cast_Fusion_FullRun_NoCredits
@@ -374,7 +374,7 @@ intermission MasterLevels_End_Fusion_FullRun_NoCast
 	{
 		Text = "$MLEND"
 		Background = "$BGFLAT06", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/ml/M_READ_M.mid"
 	}
 	Wiper {}
 	Link = Doom2_End_Fusion_FullRun_NoCast_NoCredits
@@ -421,7 +421,7 @@ intermission Inter_Cast_Plutonia_Fusion_FullRun
 	{
 		Background = "BOSSPL"
 		Time = -1
-		Music = "P_EVIL"
+		Music = "music/plutmidi/P_EVIL.mid"
 	}
 	Link = Doom2Cast_Fusion_FullRun_NoCredits
 }
@@ -698,7 +698,7 @@ intermission Plutonia_End_Fusion_FullRun_NoCast
 	Image
 	{
 		Background = "BOSSPL"
-		Music = "P_EVIL"
+		Music = "music/plutmidi/P_EVIL.mid"
 	}
 }
 

@@ -111,7 +111,7 @@ intermission Nerve_Intro
 	{
 		Text = "$NVINTRO"
 		Background = "$GRNROCK", 1
-		Music = "$MUSIC_READ_M"
+		Music = "music/nrftl/N_READ_M.mid"
 	}
 }
 
@@ -181,7 +181,7 @@ intermission Plutonia_Intro
 	{
 		Text = "$PLINTRO1"
 		Background = "$GRNROCK", 1
-		Music = "P_READ_M"
+		Music = "music/plutmidi/P_READ_M.mid"
 	}
 	
 	TextScreen
